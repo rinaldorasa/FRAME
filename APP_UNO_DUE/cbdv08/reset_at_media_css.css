@@ -1,0 +1,32 @@
+
+
+
+/* Desktops and laptops */
+@media only screen and (min-width : 1224px) {
+  html *  {background-color:initial!important;color:initial!important;}
+}
+ 
+/* Large screens */
+@media only screen and (min-width : 1824px) {
+  html *  {background-color:initial!important;color:initial!important;}
+}
+ 
+/* Tablets (landscape) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  html *  {background-color:initial!important;color:initial!important;}
+}
+ 
+/* Tablets (portrait) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ html *  {background-color:initial!important;color:initial!important;} 
+}
+ 
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+  html *  {background-color:initial!important;color:initial!important;}
+}
+ 
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px) {
+  html *  {background-color:initial!important;color:initial!important;}
+}
